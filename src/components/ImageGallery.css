@@ -1,0 +1,29 @@
+.ImageGallery {
+    padding: 0 5%;
+}
+
+.ImageGallery .columns {
+    /* columns: 3 auto; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: auto; */
+    gap: 1rem;
+}
+
+.ImageGallery center {
+    width: 90vw;
+}
+
+@media screen and (max-width: 950px) {
+    .ImageGallery .columns {
+        grid-template-columns: repeat(2, 1fr);
+        /* columns: 2 auto; */
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ImageGallery .columns {
+        grid-template-columns: repeat(1, 1fr);
+        /* columns: 1 auto; */
+    }
+}

@@ -1,0 +1,88 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+.Navbar .logo path{
+    fill: #fff;
+}
+
+.Navbar .search-form{
+    display: none;
+    align-items: center;
+    height: 2rem;
+    width: 50%;
+    border: 1px solid #b6b6b6;
+    border-radius: 1rem;
+}
+
+.Navbar .search-form .submit-btn{
+    display: none;
+}
+
+.Navbar .search-form .search-btn{
+    background-color: #fff;
+    color: #000;
+    height: 100%;
+    /* width: 10%; */
+    max-width: 1rem;
+    padding-right: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.Navbar .search-form input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0 0 0 1rem;
+    outline: none;
+}
+
+.Navbar .search-form select{
+    height: 100%;
+    border: none;
+    border-left: 0.8rem solid #fff;
+    border-radius: 1rem 0 0 1rem;
+    outline: none;
+}
+
+.Navbar .explore-btn, .Navbar .login-btn{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.85rem;
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.Navbar.stickyNav .search-form {
+    display: flex;
+}
+
+.Navbar.stickyNav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fafafa;
+    color: #000;
+    z-index: 10;
+    transition: background-color .2s;
+}
+
+.Navbar.stickyNav .logo path{
+    fill: #000;
+}
+
+.Navbar.stickyNav .explore-btn, .Navbar.stickyNav .login-btn{
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .Navbar .search-form{
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+.HomePage .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.HomePage .hero-section .hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5rem 5%;
+}
+
+.HomePage .hero-banner .title {
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+}
+
+.HomePage .hero-banner .search-form {
+    display: flex;
+    height: 2.8rem;
+    width: 60%;
+}
+
+.HomePage .hero-banner .search-form .search-btn {
+    background-color: #fff;
+    color: #000;
+    height: 2.8rem;
+    max-width: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.HomePage .hero-banner .search-form input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0 0 0 1rem;
+    outline: none;
+}
+
+.HomePage .hero-banner .search-form select {
+    height: 100%;
+    border: none;
+    border-right: 0.8rem solid #fff;
+    border-radius: 0 1rem 1rem 0;
+    outline: none;
+    background-color: #fff;
+}
+
+.HomePage .hero-banner .search-form .submit-btn {
+    display: none;
+}
+
+.HomePage .container {
+    padding: 0 5%;
+}

@@ -1,0 +1,84 @@
+.SliderTab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+}
+
+.SliderTab ul{
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.SliderTab ul::-webkit-scrollbar{
+    display: none;
+}
+
+.SliderTab li{
+    list-style-type: none;
+    padding: 0.55rem;
+    background-color: #e3e3e3;
+    border-radius: 0.8rem;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.SliderTab ul li a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.SliderTab .arrow{
+    display: none;
+    position: absolute;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.SliderTab .arrow svg{
+    border-radius: 50%;
+    width: 2.1rem;
+}
+
+.SliderTab .arrow svg:hover{
+    background-color: #ebebeb;
+}
+
+.SliderTab .arrow path{
+    fill: #000000;
+}
+
+.SliderTab .left-arrow{
+    background: linear-gradient(to right, #fff 50%, transparent);
+    left: 0;
+}
+
+.SliderTab .right-arrow{
+    justify-content: flex-end;
+    background: linear-gradient(to left, #fff 50%, transparent);
+    right: 0;
+}
+
+.SliderTab .left-arrow.active{
+    display: block;
+}
+
+.SliderTab .right-arrow.active{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .SliderTab .arrow{
+        display: none;
+    }
+}
