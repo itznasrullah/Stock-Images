@@ -30,7 +30,7 @@ const ImageElement = (props) => {
 
     return (
         <div className='ImageElement'  >
-            <Link to={`/view?id=${props.id}`}>
+            <Link to={`/Stock-Images/view?id=${props.id}`}>
                 <img src={props.src} alt={props.src}  />
             </Link>
             <div className='overlay'>

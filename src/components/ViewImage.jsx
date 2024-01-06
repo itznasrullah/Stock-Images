@@ -98,7 +98,7 @@ const ViewImage = () => {
               <div className='tags'>
                 {
                   tags && tags.map((tag) => {
-                    return <Link to={`/search?query=${tag}`} key={tag} > <span className='tag' >{tag}</span></Link>
+                    return <Link to={`/Stock-Images/search?query=${tag}`} key={tag} > <span className='tag' >{tag}</span></Link>
                   })
                 }       
               </div>
