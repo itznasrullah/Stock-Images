@@ -8,12 +8,12 @@ import Loading from "../assets/Loading.gif";
 
 const ViewImage = () => {
   const search = useLocation().search;
-  const id = new URLSearchParams(search).get('id');
   const [imageData, setImageData] = useState([]);
   const [tags, setTags] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
+  
   useEffect(() => {
+    const id = new URLSearchParams(search).get('id');
     const getData = () => {
       setIsLoading(true);
 
@@ -31,7 +31,7 @@ const ViewImage = () => {
     }
 
     return () => { getData() }
-  }, [id])
+  }, [])
 
   const download = (src) => {
     // saveAs(src, "image");
