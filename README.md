@@ -33,7 +33,7 @@ This project has been instrumental in developing skills in various areas of web 
 ## Getting Started
 
 1) Clone the repository.\
-git clone https://github.com/your-username/stock-image-website.git
+git clone https://github.com/itznasrullah/Stock-Images.git
 
 2) Install dependencies.\
 npm install
