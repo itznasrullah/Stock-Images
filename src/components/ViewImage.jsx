@@ -27,7 +27,9 @@ const ViewImage = () => {
 
           setIsLoading(false);
         })
-        .catch((err) => { console.log(err) })
+        .catch(err => {
+          console.log(err);
+        });
     }
 
     return () => { getData() }
