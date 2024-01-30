@@ -32,14 +32,20 @@ This project has been instrumental in developing skills in various areas of web 
 
 ## Getting Started
 
-1) Clone the repository.\
+1) Clone the repository.
+```
 git clone https://github.com/itznasrullah/Stock-Images.git
+```
 
-2) Install dependencies.\
+3) Install dependencies.
+```
 npm install
+```
 
-3) Run the application.\
+5) Run the application.
+```
 npm start
+```
 
 Open your browser and navigate to http://localhost:3000 to start exploring the stock image website.
 
