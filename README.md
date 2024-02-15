@@ -1,5 +1,5 @@
 # Stock Image Website Project
-Welcome to an exciting project that empowers you to explore the world of modern web development by creating a stock image website using React.js. This project not only hones skills in React but also integrates the power of Rapid API to enhance the functionality of the application. Below are some of the key features that make this project stand out:
+Welcome to an exciting project that empowers you to explore the world of modern web development by creating a stock image website using React.js. This project not only hones skills in React but also integrates the power of Rest API to enhance the functionality of the application. Below are some of the key features that make this project stand out:
 
 ## Key Features
 ### Image Searching
